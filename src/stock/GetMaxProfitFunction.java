@@ -3,6 +3,7 @@ package stock;
 public class GetMaxProfitFunction {
 	// Easy to understand solution, O(n)
 	public int maxProfit(int[] prices){
+		// keep track of min and max
 		int currentMin = Integer.MAX_VALUE;
 		int max = 0;
 		
